@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="Scrabble">
-      <change afterPath="$PROJECT_DIR$/python/scrabble.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/scrabble_dictionary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/test_scrabble.py" afterDir="false" />
+    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/test_rotate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plurals.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/plurals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/rotate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/rotate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570423830804</updated>
-      <workItem from="1570423831926" duration="8607000" />
+      <workItem from="1570423831926" duration="9387000" />
     </task>
     <task id="LOCAL-00001" summary="If/Else beginner question for plurals of a word">
       <created>1570424739740</created>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570425860370</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved all files to a python directory in preparation for the golang solutions. Also completed scrabble value question">
+      <created>1570513581608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570513581610</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +209,8 @@
     <MESSAGE value="If/Else beginner question for plurals of a word" />
     <MESSAGE value="Rotate characters withing a string." />
     <MESSAGE value="Rotate characters withing a string. Beginner set of pybites challenges. Figured out slicing without looking it up." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate characters withing a string. Beginner set of pybites challenges. Figured out slicing without looking it up." />
+    <MESSAGE value="Moved all files to a python directory in preparation for the golang solutions. Also completed scrabble value question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved all files to a python directory in preparation for the golang solutions. Also completed scrabble value question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,7 +224,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/interview_prep$scrabble.coverage" NAME="scrabble Coverage Results" MODIFIED="1570513404108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview_prep$scrabble.coverage" NAME="scrabble Coverage Results" MODIFIED="1570514073067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview_prep$plurals.coverage" NAME="plurals Coverage Results" MODIFIED="1570425447246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview_prep$test_scrabble.coverage" NAME="test_scrabble Coverage Results" MODIFIED="1570507051540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/tests" />
     <SUITE FILE_PATH="coverage/interview_prep$rotate.coverage" NAME="rotate Coverage Results" MODIFIED="1570466580608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
