@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/palindrome_dictionary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/test_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kseals.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/palindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interview-prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interview-prep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/palindrome_dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/setup/palindrome_dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/scrabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/scrabble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/scrabble_dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/setup/scrabble_dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/test_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/test_rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_rotate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/test_scrabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_scrabble.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +22,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.13.3" />
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,16 +45,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python/tests" />
+      <recent name="$PROJECT_DIR$/setup" />
+      <recent name="$PROJECT_DIR$/go" />
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
@@ -53,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_palindrome">
+  <component name="RunManager" selected="Python tests.Unittests for test_rotate.TestRotate">
     <configuration name="scrabble" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="interview-prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,33 +86,11 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/scrabble.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tags" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tags.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +112,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/test_palindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tests/test_palindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/test_scrabble.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tests/test_scrabble.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,13 +165,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_rotate.TestRotate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_rotate.TestRotate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_palindrome" />
-        <item itemvalue="Python.tags" />
-        <item itemvalue="Python.test_tags" />
-        <item itemvalue="Python.scrabble" />
+        <item itemvalue="Python tests.Unittests for test_rotate.TestRotate" />
         <item itemvalue="Python.test_scrabble" />
+        <item itemvalue="Python.test_palindrome" />
+        <item itemvalue="Python.scrabble" />
       </list>
     </recent_temporary>
   </component>
@@ -261,25 +275,5 @@
     <option name="LAST_COMMIT_MESSAGE" value="Check to see if a given word is a palindrome.&#10;Load the list of words from a generator.&#10;Get the longest palindrome and return it" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/interview_prep$tags.coverage" NAME="tags Coverage Results" MODIFIED="1570573962334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/interview_prep$test_palindrome.coverage" NAME="test_palindrome Coverage Results" MODIFIED="1570667656193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/interview_prep$test_tags.coverage" NAME="test_tags Coverage Results" MODIFIED="1570573951555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/interview_prep$scrabble.coverage" NAME="scrabble Coverage Results" MODIFIED="1570547827343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interview_prep$plurals.coverage" NAME="plurals Coverage Results" MODIFIED="1570425447246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interview_prep$test_scrabble.coverage" NAME="test_scrabble Coverage Results" MODIFIED="1570507051540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/tests" />
-    <SUITE FILE_PATH="coverage/interview_prep$rotate.coverage" NAME="rotate Coverage Results" MODIFIED="1570466580608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

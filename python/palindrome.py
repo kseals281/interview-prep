@@ -9,7 +9,7 @@ A palindrome is a word, phrase, number, or other sequence of characters
 which reads the same backward as forward"""
 import string
 
-DICTIONARY = "/Users/khari/PycharmProjects/interview-prep/python/palindrome_dictionary.txt"
+DICTIONARY = "/home/kseals/go/src/interview-prep/setup/palindrome_dictionary.txt"
 
 
 def load_dictionary():

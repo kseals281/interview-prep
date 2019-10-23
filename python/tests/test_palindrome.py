@@ -1,6 +1,6 @@
 import unittest
 
-from palindrome import load_dictionary, is_palindrome, get_longest_palindrome
+from python.palindrome import load_dictionary, is_palindrome, get_longest_palindrome
 
 
 class TestPalindrome(unittest.TestCase):

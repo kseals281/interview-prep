@@ -14,10 +14,9 @@ value.
 
 Look at the TESTS tab to see what your code needs to pass. Enjoy!
 """
-import os
 
 # PREWORK
-DICTIONARY = '/Users/khari/PycharmProjects/interview-prep/python/scrabble_dictionary.txt'
+DICTIONARY = '/home/kseals/go/src/interview-prep/setup/scrabble_dictionary.txt'
 scrabble_scores = [(1, "E A O I N R T L S U"), (2, "D G"), (3, "B C M P"),
                    (4, "F H V W Y"), (5, "K"), (8, "J X"), (10, "Q Z")]
 LETTER_SCORES = {letter: score for score, letters in scrabble_scores
@@ -53,5 +52,6 @@ def max_word_value(words):
         if score > mx[0]:
             mx = (score, word)
     return mx[1]
+
 
 calc_word_value('bob')
