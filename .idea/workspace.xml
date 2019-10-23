@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/kseals.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/go/palindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/interview-prep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interview-prep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/palindrome_dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/setup/palindrome_dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/scrabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/scrabble.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/scrabble_dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/setup/scrabble_dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/test_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/test_rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_rotate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/test_scrabble.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/tests/test_scrabble.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
@@ -76,7 +80,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_rotate.TestRotate">
+  <component name="RunManager" selected="Go Build.go build palindrome.go">
+    <configuration name="go build palindrome.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go/palindrome.go" />
+      <package value="interview-prep" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="scrabble" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="interview-prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,28 +156,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_tags" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/test_tags.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_rotate.TestRotate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build palindrome.go" />
         <item itemvalue="Python tests.Unittests for test_rotate.TestRotate" />
         <item itemvalue="Python.test_scrabble" />
         <item itemvalue="Python.test_palindrome" />
@@ -272,7 +264,8 @@
     <MESSAGE value="Moved all files to a python directory in preparation for the golang solutions. Also completed scrabble value question" />
     <MESSAGE value="Created a test file for rotate. Changed the call procedure of rotate as a result" />
     <MESSAGE value="Check to see if a given word is a palindrome.&#10;Load the list of words from a generator.&#10;Get the longest palindrome and return it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check to see if a given word is a palindrome.&#10;Load the list of words from a generator.&#10;Get the longest palindrome and return it" />
+    <MESSAGE value="Reorganized project to include go interview prep files. Moved setup files and test files to their own directories." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized project to include go interview prep files. Moved setup files and test files to their own directories." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
