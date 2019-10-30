@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/palindrome.go" afterDir="false" />
+    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well.">
+      <change afterPath="$PROJECT_DIR$/go/palindrome_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/test_dictionaries/empty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/test_dictionaries/two_lines.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/palindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/palindrome.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +32,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.13.3" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="interview-prep/invalid/Python facet" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1RrSgHcu3cnKwCHpGKPg1v4gaIM" />
   <component name="ProjectLevelVcsManager">
@@ -80,103 +89,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build palindrome.go">
-    <configuration name="go build palindrome.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_longest in interview-prep/go">
+    <configuration name="Test_isPalindrome in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_isPalindrome$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_loadDictionary in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_loadDictionary$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_longest in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_longest$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_reversed in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_reversed$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="palindrome_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/palindrome.go" />
       <package value="interview-prep" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scrabble" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/scrabble.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tests/test_palindrome.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_scrabble" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/tests/test_scrabble.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_rotate.TestRotate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_rotate.TestRotate&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <filePath value="$PROJECT_DIR$/go/palindrome_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build palindrome.go" />
-        <item itemvalue="Python tests.Unittests for test_rotate.TestRotate" />
-        <item itemvalue="Python.test_scrabble" />
-        <item itemvalue="Python.test_palindrome" />
-        <item itemvalue="Python.scrabble" />
+        <item itemvalue="Go Test.Test_longest in interview-prep/go" />
+        <item itemvalue="Go Test.palindrome_test.go" />
+        <item itemvalue="Go Test.Test_reversed in interview-prep/go" />
+        <item itemvalue="Go Test.Test_loadDictionary in interview-prep/go" />
+        <item itemvalue="Go Test.Test_isPalindrome in interview-prep/go" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +239,8 @@
     <MESSAGE value="Created a test file for rotate. Changed the call procedure of rotate as a result" />
     <MESSAGE value="Check to see if a given word is a palindrome.&#10;Load the list of words from a generator.&#10;Get the longest palindrome and return it" />
     <MESSAGE value="Reorganized project to include go interview prep files. Moved setup files and test files to their own directories." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized project to include go interview prep files. Moved setup files and test files to their own directories." />
+    <MESSAGE value="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

@@ -12,9 +12,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	s "strings"
+	"unicode"
 )
 
-const DICTIONARY = "/home/kseals/go/src/interview-prep/setup/palindrome_dictionary.txt"
+const DICTIONARY = "setup/palindrome_dictionary.txt"
 
 func errCheck(msg string, err error) {
 	if err != nil {
@@ -23,15 +24,20 @@ func errCheck(msg string, err error) {
 	}
 }
 
-func loadDictionary(c chan string) {
+func loadDictionary(dct string) <-chan string {
 	//	Load dictionary and return via channel
-	f, err := ioutil.ReadFile(DICTIONARY)
+	c := make(chan string)
+	f, err := ioutil.ReadFile(dct)
 	errCheck("Unable to open file", err)
 	dat := string(f)
-	for _, word := range s.Split(dat, "\n") {
-		c <- word
-	}
-	close(c)
+	go func() {
+		defer close(c)
+		for _, word := range s.Split(dat, "\n") {
+			c <- word
+		}
+	}()
+
+	return c
 }
 
 func isPalindrome(word string) bool {
@@ -39,21 +45,46 @@ func isPalindrome(word string) bool {
 	//	Case insensitive, so Madam is valid too.
 	//	It should work for phrases too so strip all but alphanumeric chars.
 	//	So "No 'x' in 'Nixon'" should pass (see tests for more)
-	return true
+	var lettersOnly string
+	for _, letter := range word {
+		if unicode.IsLetter(letter) {
+			lettersOnly += s.ToLower(string(letter))
+		}
+	}
+	var firstHalf string
+	var secondHalf string
+	if len(lettersOnly)%2 == 0 {
+		firstHalf = lettersOnly[:len(lettersOnly)/2]
+		secondHalf = lettersOnly[len(lettersOnly)/2:]
+	} else {
+		firstHalf = lettersOnly[:(len(lettersOnly) / 2)]
+		secondHalf = lettersOnly[len(lettersOnly)/2+1:]
+	}
+	return firstHalf == reversed(secondHalf)
 }
 
-func longest(words string) {
+func longest(words []string) string {
 	//	Given a list of words return the longest palindrome
 	//	If called without argument use the load_dictionary helper
 	//	to populate the words list
-
+	if len(words) == 0 {
+		loadDictionary(DICTIONARY)
+	}
+	longest := ""
+	for _, word := range words {
+		if isPalindrome(word) {
+			if len(word) > len(longest) {
+				longest = word
+			}
+		}
+	}
+	return longest
 }
 
-func main() {
-	c := make(chan string)
-	go loadDictionary(c)
-
-	for word := range c {
-		go isPalindrome(word)
+func reversed(s string) string {
+	var rev string
+	for _, r := range s {
+		rev = string(r) + rev
 	}
+	return rev
 }
