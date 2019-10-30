@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well.">
-      <change afterPath="$PROJECT_DIR$/go/palindrome_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/test_dictionaries/empty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/test_dictionaries/two_lines.txt" afterDir="false" />
+    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/scrabble.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/palindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/palindrome.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
