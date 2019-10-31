@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/rotate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/rotate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/converter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/converter_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -88,18 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_rotate in interview-prep/go">
-    <configuration name="Test_loadDictionary in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/go" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_loadDictionary$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.Test_rgbToHex in interview-prep/go">
     <configuration name="Test_longest in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
@@ -120,6 +110,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_reversed$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_rgbToHex in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_rgbToHex$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_rotate in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_rgbToHex in interview-prep/go" />
         <item itemvalue="Go Test.Test_rotate in interview-prep/go" />
         <item itemvalue="Go Test.Test_longest in interview-prep/go" />
         <item itemvalue="Go Test.palindrome_test.go" />
         <item itemvalue="Go Test.Test_reversed in interview-prep/go" />
-        <item itemvalue="Go Test.Test_loadDictionary in interview-prep/go" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +241,8 @@
     <MESSAGE value="Reorganized project to include go interview prep files. Moved setup files and test files to their own directories." />
     <MESSAGE value="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well." />
     <MESSAGE value="Added Readme explaining the reasoning for comments and some implementation of the go files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Readme explaining the reasoning for comments and some implementation of the go files" />
+    <MESSAGE value="Rotate characters within a string a certain amount of places" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rotate characters within a string a certain amount of places" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
