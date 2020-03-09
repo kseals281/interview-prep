@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/converter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/converter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/scrabble.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,17 +49,23 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,19 +83,7 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Go Test.Test_rgbToHex in interview-prep/go">
+  <component name="RunManager" selected="Go Test.Test_merge in interview-prep/go">
     <configuration name="Test_longest in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
@@ -101,7 +95,7 @@
       <pattern value="^Test_longest$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_reversed in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_merge in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
@@ -109,7 +103,18 @@
       <package value="interview-prep/go" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_reversed$" />
+      <pattern value="^Test_merge$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_mergeSort in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="interview-prep/go" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_mergeSort$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_rgbToHex in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,23 +139,13 @@
       <pattern value="^Test_rotate$" />
       <method v="2" />
     </configuration>
-    <configuration name="palindrome_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/go" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="interview-prep" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/go/palindrome_test.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_merge in interview-prep/go" />
+        <item itemvalue="Go Test.Test_mergeSort in interview-prep/go" />
         <item itemvalue="Go Test.Test_rgbToHex in interview-prep/go" />
         <item itemvalue="Go Test.Test_rotate in interview-prep/go" />
         <item itemvalue="Go Test.Test_longest in interview-prep/go" />
-        <item itemvalue="Go Test.palindrome_test.go" />
-        <item itemvalue="Go Test.Test_reversed in interview-prep/go" />
       </list>
     </recent_temporary>
   </component>
@@ -242,8 +237,47 @@
     <MESSAGE value="Completed palindrome question in Golang with accompanying tests. Created test dictionaries for certain test cases as well." />
     <MESSAGE value="Added Readme explaining the reasoning for comments and some implementation of the go files" />
     <MESSAGE value="Rotate characters within a string a certain amount of places" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate characters within a string a certain amount of places" />
+    <MESSAGE value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
+    <option name="LAST_COMMIT_MESSAGE" value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1583723923799">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583723923799" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1583723923797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583723923797" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1583723923797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583723923797" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1583723923798">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583723923798" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583722278682">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583722278682" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583722278679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583722278679" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583722278678">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583722278678" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583722278681">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583722278681" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583720457253">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583720457253" />
   </component>
 </project>
