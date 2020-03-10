@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"math/rand"
 	"time"
 )
@@ -25,16 +24,9 @@ func mergeSort(nums []int) []int {
 		return nums
 	}
 
-	mid := int(math.Floor(float64(len(nums) / 2)))
-	var left, right []int
-
-	for i, j := range nums {
-		if i >= mid {
-			right = append(right, j)
-		} else {
-			left = append(left, j)
-		}
-	}
+	mid := int(len(nums) / 2)
+	left := nums[:mid]
+	right := nums[mid:]
 
 	sortedLeft := mergeSort(left)
 	sortedRight := mergeSort(right)
@@ -43,7 +35,6 @@ func mergeSort(nums []int) []int {
 }
 
 func merge(left, right []int) (sorted []int) {
-	count := 0
 	for len(left) > 0 && len(right) > 0 {
 		if left[0] < right[0] {
 			sorted = append(sorted, left[0])
@@ -52,7 +43,6 @@ func merge(left, right []int) (sorted []int) {
 			sorted = append(sorted, right[0])
 			right = right[1:]
 		}
-		count++
 	}
 
 	if len(left) > 0 {

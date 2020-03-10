@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/scrabble.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_merge in interview-prep/go">
+  <component name="RunManager" selected="Go Test.Test_mergeSort in interview-prep/go">
     <configuration name="Test_longest in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
@@ -141,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_merge in interview-prep/go" />
         <item itemvalue="Go Test.Test_mergeSort in interview-prep/go" />
+        <item itemvalue="Go Test.Test_merge in interview-prep/go" />
         <item itemvalue="Go Test.Test_rgbToHex in interview-prep/go" />
         <item itemvalue="Go Test.Test_rotate in interview-prep/go" />
         <item itemvalue="Go Test.Test_longest in interview-prep/go" />
@@ -238,27 +235,32 @@
     <MESSAGE value="Added Readme explaining the reasoning for comments and some implementation of the go files" />
     <MESSAGE value="Rotate characters within a string a certain amount of places" />
     <MESSAGE value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
+    <MESSAGE value="Interview question completed with tests.&#10;&#10;Refresher on merge sort in golang. Using no go specific types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interview question completed with tests.&#10;&#10;Refresher on merge sort in golang. Using no go specific types" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1583723923799">
+    <state x="132" y="34" key="CommitChangelistDialog2" timestamp="1583724044699">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583723923799" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1583723923797">
+    <state x="132" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583724044699" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1583807919748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583723923797" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1583723923797">
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583807919748" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1583807919747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583723923797" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1583723923798">
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583807919747" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1583807919747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583723923798" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583807919747" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1583807919748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583807919748" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583722278682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -275,6 +277,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583722278681" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583724047503">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583724047503" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583720457253">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
