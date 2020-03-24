@@ -82,25 +82,7 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build arrays_and_strings.go">
-    <configuration name="go build arrays_and_strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/arrays_and_strings.go" />
-      <package value="GolandProjects/src/interview-prep" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build unique_string.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/unique_string.go" />
-      <package value="GolandProjects/src/interview-prep" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test go">
     <configuration name="Test_checkPermutation in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
@@ -110,17 +92,6 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^Test_checkPermutation$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test_isUniqueString in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="interview-prep" />
-      <working_directory value="$PROJECT_DIR$/go" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="GolandProjects/src/interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_isUniqueString$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_stringCompression in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,13 +105,43 @@
       <pattern value="^Test_stringCompression$" />
       <method v="2" />
     </configuration>
+    <configuration name="arrays_and_strings_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="GolandProjects/src/interview-prep" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/go/arrays_and_strings_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="GolandProjects/src/interview-prep" />
+      <directory value="$PROJECT_DIR$/go" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sort_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="interview-prep" />
+      <working_directory value="$PROJECT_DIR$/go" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="GolandProjects/src/interview-prep" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/go/sort_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test go" />
+        <item itemvalue="Go Test.sort_test.go" />
+        <item itemvalue="Go Test.arrays_and_strings_test.go" />
         <item itemvalue="Go Test.Test_stringCompression in GolandProjects/src/interview-prep/go" />
         <item itemvalue="Go Test.Test_checkPermutation in GolandProjects/src/interview-prep/go" />
-        <item itemvalue="Go Build.go build arrays_and_strings.go" />
-        <item itemvalue="Go Test.Test_isUniqueString in GolandProjects/src/interview-prep/go" />
-        <item itemvalue="Go Build.go build unique_string.go" />
       </list>
     </recent_temporary>
   </component>
@@ -244,38 +245,39 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="215" key="#GOROOT/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584725914265" />
-    <state x="752" y="192" key="#go_build_arrays_and_strings.go" timestamp="1584740725243">
+    <state x="752" y="192" key="#go_build_arrays_and_strings.go" timestamp="1585037440651">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="752" y="192" key="#go_build_arrays_and_strings.go/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584740725243" />
+    <state x="752" y="192" key="#go_build_arrays_and_strings.go/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037440651" />
     <state x="752" y="192" key="#go_build_unique_string.go" timestamp="1584727215721">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="752" y="192" key="#go_build_unique_string.go/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584727215721" />
-    <state x="132" y="34" key="CommitChangelistDialog2" timestamp="1583807943111">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="188" y="42" key="CommitChangelistDialog2" timestamp="1585037498226">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="132" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583807943111" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1584741134747">
+    <state x="188" y="42" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498226" />
+    <state width="1002" height="305" key="GridCell.Tab.0.bottom" timestamp="1585037498288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584741134747" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1584741134746">
+    <state width="1002" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
+    <state width="1002" height="305" key="GridCell.Tab.0.center" timestamp="1585037498288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583808932058" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584741134746" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1584741134746">
+    <state width="1002" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
+    <state width="1002" height="305" key="GridCell.Tab.0.left" timestamp="1585037498288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583808932057" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584741134746" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1584741134747">
+    <state width="1002" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
+    <state width="1002" height="305" key="GridCell.Tab.0.right" timestamp="1585037498288">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584741134747" />
+    <state width="1002" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583808878129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -308,6 +310,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="834" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584727241063" />
+    <state x="761" y="348" key="git4idea.merge.GitMergeDialog" timestamp="1585037407364">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="761" y="348" key="git4idea.merge.GitMergeDialog/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037407364" />
+    <state x="772" y="388" key="git4idea.ui.GitUnstashDialog" timestamp="1585037398737">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="772" y="388" key="git4idea.ui.GitUnstashDialog/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037398737" />
     <state x="548" y="242" width="953" height="836" key="search.everywhere.popup" timestamp="1584726752717">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
