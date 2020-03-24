@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/arrays_and_strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/arrays_and_strings_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="Adding tree practice and stacks and queues from Cracking the Coding Interview">
+      <change afterPath="$PROJECT_DIR$/go/trees.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +80,8 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test go">
-    <configuration name="Test_checkPermutation in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_setupTree in GolandProjects/src/interview-prep/go">
+    <configuration name="Test_setupTree in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
@@ -91,7 +89,7 @@
       <package value="GolandProjects/src/interview-prep/go" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_checkPermutation$" />
+      <pattern value="^Test_setupTree$" />
       <method v="2" />
     </configuration>
     <configuration name="Test_stringCompression in GolandProjects/src/interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_setupTree in GolandProjects/src/interview-prep/go" />
         <item itemvalue="Go Test.go test go" />
         <item itemvalue="Go Test.sort_test.go" />
         <item itemvalue="Go Test.arrays_and_strings_test.go" />
         <item itemvalue="Go Test.Test_stringCompression in GolandProjects/src/interview-prep/go" />
-        <item itemvalue="Go Test.Test_checkPermutation in GolandProjects/src/interview-prep/go" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +234,9 @@
     <MESSAGE value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
     <MESSAGE value="Interview question completed with tests.&#10;&#10;Refresher on merge sort in golang. Using no go specific types" />
     <MESSAGE value="Removed count and incorrect splitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed count and incorrect splitting" />
+    <MESSAGE value="Adding tree practice and stacks and queues from Cracking the Coding Interview" />
+    <MESSAGE value="Stacks and queues from Cracking the Coding Interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stacks and queues from Cracking the Coding Interview" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -253,31 +253,31 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="752" y="192" key="#go_build_unique_string.go/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584727215721" />
-    <state x="188" y="42" key="CommitChangelistDialog2" timestamp="1585037498226">
+    <state x="188" y="42" key="CommitChangelistDialog2" timestamp="1585037542262">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="132" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583807943111" />
-    <state x="188" y="42" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498226" />
-    <state width="1002" height="305" key="GridCell.Tab.0.bottom" timestamp="1585037498288">
+    <state x="188" y="42" key="CommitChangelistDialog2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037542262" />
+    <state width="1002" height="305" key="GridCell.Tab.0.bottom" timestamp="1585037848516">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="1002" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
-    <state width="1002" height="305" key="GridCell.Tab.0.center" timestamp="1585037498288">
+    <state width="1002" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037848516" />
+    <state width="1002" height="305" key="GridCell.Tab.0.center" timestamp="1585037848516">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583808932058" />
-    <state width="1002" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
-    <state width="1002" height="305" key="GridCell.Tab.0.left" timestamp="1585037498288">
+    <state width="1002" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037848516" />
+    <state width="1002" height="305" key="GridCell.Tab.0.left" timestamp="1585037848516">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583808932057" />
-    <state width="1002" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
-    <state width="1002" height="305" key="GridCell.Tab.0.right" timestamp="1585037498288">
+    <state width="1002" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037848516" />
+    <state width="1002" height="305" key="GridCell.Tab.0.right" timestamp="1585037848516">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="1002" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037498288" />
+    <state width="1002" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037848516" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583808878129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -302,10 +302,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="746" y="298" width="540" height="524" key="StructurePopup/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1584728735767" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583807973150">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="455" y="235" key="Vcs.Push.Dialog.v2" timestamp="1585037545704">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583807973150" />
+    <state x="455" y="235" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1585037545704" />
     <state x="834" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584727241063">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
