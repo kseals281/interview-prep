@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="10b3a3da-e1c9-4749-a6bf-9ef9a0ad58da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go/merge_lists.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/merge_lists_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/cafe-order-checker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/cafe-order-checker_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/find_duplicate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/find_duplicate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/solution_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
@@ -36,6 +59,11 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -50,18 +78,18 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go&#10;Python" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -82,72 +110,73 @@
       <recent name="$PROJECT_DIR$/python" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.Test_mergeCookieLists in interview-prep/go">
-    <configuration name="Test_merge in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.Test_isFIFO in interview-prep/go">
+    <configuration name="TestSolution in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_merge$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestSolution$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_mergeCookieLists in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_findAllDuplicate in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_mergeCookieLists$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_findAllDuplicate$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_mergeSort in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_find_duplicate in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_mergeSort$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_find_duplicate$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_rgbToHex in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_isFIFO in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_rgbToHex$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_isFIFO$" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_rotate in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_mergeRanges in interview-prep/go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="interview-prep" />
       <working_directory value="$PROJECT_DIR$/go" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="interview-prep/go" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^Test_rotate$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^Test_mergeRanges$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test_mergeCookieLists in interview-prep/go" />
-        <item itemvalue="Go Test.Test_mergeSort in interview-prep/go" />
-        <item itemvalue="Go Test.Test_merge in interview-prep/go" />
-        <item itemvalue="Go Test.Test_rgbToHex in interview-prep/go" />
-        <item itemvalue="Go Test.Test_rotate in interview-prep/go" />
+        <item itemvalue="Go Test.Test_isFIFO in interview-prep/go" />
+        <item itemvalue="Go Test.Test_mergeRanges in interview-prep/go" />
+        <item itemvalue="Go Test.Test_findAllDuplicate in interview-prep/go" />
+        <item itemvalue="Go Test.Test_find_duplicate in interview-prep/go" />
+        <item itemvalue="Go Test.TestSolution in interview-prep/go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -209,20 +238,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -239,54 +267,39 @@
     <MESSAGE value="Interview question completed with tests.&#10;&#10;Write a function that converts RGB values to hex codes. Not all values given will be within valid RGB range." />
     <MESSAGE value="Interview question completed with tests.&#10;&#10;Refresher on merge sort in golang. Using no go specific types" />
     <MESSAGE value="Removed count and incorrect splitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed count and incorrect splitting" />
+    <MESSAGE value="Completed merge cookie list question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed merge cookie list question" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="132" y="34" key="CommitChangelistDialog2" timestamp="1583807943111">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602154565751">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="132" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583807943111" />
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1583808932059">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1602154565751" />
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom" timestamp="1602355536304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1583808932058">
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1602355536304" />
+    <state width="1398" height="210" key="GridCell.Tab.0.center" timestamp="1602355536303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583808932058" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1583808932057">
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1602355536303" />
+    <state width="1398" height="210" key="GridCell.Tab.0.left" timestamp="1602355536303">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583808932057" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1583808932059">
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1602355536303" />
+    <state width="1398" height="210" key="GridCell.Tab.0.right" timestamp="1602355536304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583808932059" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1583808878129">
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1602355536304" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602159543169">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1602159543169" />
+    <state x="421" y="205" width="598" height="548" key="find.popup" timestamp="1596938947864">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583808878129" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1583808878129">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583808878129" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1583808878128">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583808878128" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1583808878129">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583808878129" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1583807973150">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583807973150" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583720457253">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583720457253" />
+    <state x="421" y="205" width="598" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596938947864" />
   </component>
 </project>
